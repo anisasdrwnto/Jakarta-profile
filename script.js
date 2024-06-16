@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#sejarah-page").click(function(){
+          $('#sejarah-details').slideToggle();
+    });
+     $("#geography-page").click(function(){
+          $('#geography-details').slideToggle();
+    });
+    $("#pariwisata-page").click(function(){
+        $('#pariwisata-details').slideToggle();
+    });
+});

@@ -1,0 +1,373 @@
+  body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex-box;
+        }
+        .background-img{
+            background-image: url("background.jpg");
+            background-position: center;
+            background-size: cover;
+            height: 80vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .background-img p{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 60px;
+          font-weight:700;
+          color: red;
+          text-align: center;
+          margin: 20%;
+          
+        }
+        img {
+            float: right;
+            margin: 0px 0px 20px 20px;
+        }
+        .title2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+        }
+        .pg-1{
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container1 {
+            padding: 2px 16px;
+            background-image: url("monas-vector.png");
+            background-position: right;
+            background-size: 60px 50px;
+            background-repeat: no-repeat;
+            
+        }
+
+         .container2 {
+            padding: 2px 16px;
+            background-image: url("geography-vector.png");
+            background-position: right;
+            background-size: 60px 50px;
+            background-repeat: no-repeat;
+            
+        }
+
+        .container3{
+            padding: 2px 16px;
+            background-image: url("tourism-vector.png");
+            background-position: right;
+            background-size: 60px 50px;
+            background-repeat: no-repeat;
+            
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .column {
+            flex: 1;
+            max-width: 300px;
+            margin: 0 10px;
+        }
+
+        .card1{
+            background-color: #d62828;
+            padding: 20px;
+            border: 1px solid #d62828;
+            border-radius: 8px;
+            text-align: center;
+           
+        }
+
+        .card2{
+            background-color: #80ed99;
+            padding: 20px;
+            border: 1px solid #80ed99;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .card3{
+            background-color: #003049;
+            padding: 20px;
+            border: 1px solid #003049;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .container1 h4, .container2 h4 , .container3 h4{
+            margin: 0;
+            font-size: 24px;
+        }
+
+        #sejarah-details{
+            height: 500px;
+            background-color: #f9dcc4;
+        }
+
+        #pariwisata-details{
+            display: flex;
+            background-color: #a2d2ff;
+            overflow: hidden;
+        }
+        .title3{
+            margin: 20px;
+            padding: 20px 16px;
+
+        }
+         .title4{
+            margin: 10px;
+            padding: 5px 15px;
+
+        }
+        .foto-monas{
+            margin: 10px;
+            padding: 10px 16px;
+        }
+       .jakpar {
+            margin: 20px;  
+            padding: 20px; 
+            line-height: 1.6;
+            font-size: 16px; 
+            border: 1px solid #ddd; 
+            border-radius: 8px; 
+            background-color: #f9f9f9; 
+            max-width: 800px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+
+       .geography-container {
+            display: flex;
+            background-color: #d3fac7;
+            overflow: hidden;
+        }
+
+        .map-container {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .details-container {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 20px; /* Menambahkan jarak antara peta dan teks */
+        }
+
+        .details-container h2 {
+            margin-top: 0;
+            margin-bottom: 15px; /* Menambahkan jarak di bawah judul */
+            padding: 0 10px; /* Menambahkan padding pada judul */
+        }
+
+        .details-container p {
+            line-height: 1.6;
+            margin-bottom: 15px; /* Menambahkan jarak di bawah paragraf */
+            padding: 0 10px; /* Menambahkan padding pada paragraf */
+        }
+
+        .details-container ul {
+            padding-left: 20px; /* Menambahkan padding pada list */
+            margin-bottom: 15px; /* Menambahkan jarak di bawah list */
+        }
+
+        .details-container li {
+            margin-bottom: 5px; /* Menambahkan jarak di bawah item list */
+        }
+
+        .setframe {
+            width: 400px;
+            height: 300px;
+            border: none;
+            margin: 20px;
+            padding: 10px;
+        }
+        .footer {
+        position: relative;
+        background: #03045e;
+        min-height: 100px;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+
+        .social-icon,
+        .menu {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        flex-wrap: wrap;
+        }
+
+        .social-icon__item,
+        .menu__item {
+        list-style: none;
+        }
+
+        .social-icon__link {
+        font-size: 2rem;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        transition: 0.5s;
+        }
+        .social-icon__link:hover {
+        transform: translateY(-10px);
+        }
+
+        .menu__link {
+        font-size: 1.2rem;
+        color: #fff;
+        margin: 0 10px;
+        display: inline-block;
+        transition: 0.5s;
+        text-decoration: none;
+        opacity: 0.75;
+        font-weight: 300;
+        }
+
+        .menu__link:hover {
+        opacity: 1;
+        }
+
+        .footer p {
+        color: #fff;
+        margin: 15px 0 10px 0;
+        font-size: 1rem;
+        font-weight: 300;
+        }
+
+        .wave {
+        position: absolute;
+        top: -100px;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: url("https://i.ibb.co/wQZVxxk/wave.png");
+        background-size: 1000px 100px;
+        }
+
+        .wave#wave1 {
+        z-index: 1000;
+        opacity: 1;
+        bottom: 0;
+        animation: animateWaves 4s linear infinite;
+        }
+
+        .wave#wave2 {
+        z-index: 999;
+        opacity: 0.5;
+        bottom: 10px;
+        animation: animate 4s linear infinite !important;
+        }
+
+        .wave#wave3 {
+        z-index: 1000;
+        opacity: 0.2;
+        bottom: 15px;
+        animation: animateWaves 3s linear infinite;
+        }
+
+        .wave#wave4 {
+        z-index: 999;
+        opacity: 0.7;
+        bottom: 20px;
+        animation: animate 3s linear infinite;
+        }
+
+        @keyframes animateWaves {
+        0% {
+            background-position-x: 1000px;
+        }
+        100% {
+            background-positon-x: 0px;
+        }
+        }
+
+        @keyframes animate {
+        0% {
+            background-position-x: -1000px;
+        }
+        100% {
+            background-positon-x: 0px;
+        }
+        }
+
+        .container {
+            min-height: 100vh;
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: flex-start;
+            padding: 0.9em;
+        }
+
+         .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            margin-bottom: 20px;
+            padding: 10px;
+            margin: 60px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-body {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-text h3 {
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        .card-text p {
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+        .card-body a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .card-body a:hover {
+            background-color: #0056b3;
+        }
+
+        .card-body a i {
+            margin-right: 5px;
+        }
+
+        
+
+       
+        
+       
+      
